@@ -44,7 +44,7 @@ $BINSNIPPET
 %if 0%{?enable_tests}
 %check
 %{nodejs_symlink_deps} --check
-#$CHECK
+$CHECK
 %endif
 
 %files
